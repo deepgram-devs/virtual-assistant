@@ -1,6 +1,10 @@
-# Repo Name
+# Deepgram Virtual Assistant
 
-A repository template for open-source demos, guides and sample apps. Description here.
+This is a demo application for implementing a digital assistant using the [Open Virtual Assistant](https://github.com/dvonthenen/open-virtual-assistant) project. This leverages Deepgram's [Go SDK](https://github.com/deepgram/deepgram-go-sdk) to provide the Speech-To-Text functionality to make pieces of this demo a reality.
+
+## Running the Demo
+
+TODO
 
 ## Development and Contributing
 
