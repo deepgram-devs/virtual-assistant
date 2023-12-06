@@ -4,7 +4,27 @@ This is a demo application for implementing a digital assistant using the [Open 
 
 ## Running the Demo
 
-TODO
+The current list of assistant implementations:
+
+- [Transcriber](https://github.com/deepgram-devs/virtual-assistant/tree/main/cmd/bin/dictation) - A slient assistant that acts as a scribe that will take notes of your dictation, then on command, will email you the current note
+  - To run this demo, you need to configure the config.json file with SMTP settings for your internet provider:
+  
+  ```
+  cd ./cmd/bin/dictation
+
+  # setup the configuration
+  cp config.json-ORG config.json
+  vi config.json
+  # fill in the settings below
+
+  # set the EMAIL_SMTP_PASSWORD environment variable in your profile, then run:
+  go run main.go
+
+  # OR supply the environment variable on the command line
+  # (this should only be used for evaluation purposes)
+  # then run:
+  EMAIL_SMTP_PASSWORD="YOUR_PASSWORD" go run main.go
+  ```
 
 ## Development and Contributing
 

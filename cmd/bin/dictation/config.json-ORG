@@ -1,0 +1,11 @@
+{
+    "template": "template.html",
+    "skipServerAuth": "true",
+    "emailTo": "REPLACE-WITH-YOUR-EMAIL",
+    "emailFrom": "REPLACE-WITH-YOUR-EMAIL",
+    "emailSubject": "REPLACE-WITH-YOUR-SUBJECT",
+    "emailSmtpAddr": "REPLACE-WITH-YOUR-SMTP-SERVER",
+    "emailSmtpPort": "REPLACE-WITH-YOUR-SMTP-PORT",
+    "emailSmtpUsername": "REPLACE-WITH-YOUR-SMTP-USERNAME",
+    "emailSmtpPassword": "DELETE-THIS-KEY-AND-USE-ENVIRONMENT-VARIABLE-INSTEAD"
+}
